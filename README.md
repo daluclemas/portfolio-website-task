@@ -1,2 +1,2 @@
-# Resume Website
-![zulu](https://user-images.githubusercontent.com/59066632/130263269-40489f07-89d0-4d96-bd63-304b9ac10ec7.gif)
+# Resume W![5k8x25](https://user-images.githubusercontent.com/59066632/130264479-66826f4d-6da5-4bc5-aac3-a2f242e940c5.gif)
+
