@@ -15,7 +15,7 @@
 
 @font-face {
     font-family: overpass;
-    src: url('/fonts/overpass/Overpass_Regular.ttf');
+    src: url('./fonts/overpass/Overpass_Regular.ttf');
 }
 
 body{
