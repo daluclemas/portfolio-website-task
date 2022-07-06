@@ -7,20 +7,20 @@
 :root{
 
     --footer-bg: hsl(240, 10%, 16%);
-    --footer-bg2: hsla(240, 10%, 16%, 0.9);
+    --footer-bg2: hsla(240, 10%, 16%, 0.8);
     --desat-blue: hsl(237, 23%, 32%);
 
 
     
 }
 
-/* @font-face {
+ @font-face {
     font-family: overpass;
-    src: url('/fonts/overpass/Overpass_Bold.ttf');
-} */
+    src: url('../fonts/overpass/Overpass_Bold.ttf');
+} 
 
 body{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: overpass;
     color: var(--desat-blue);
 
 }
@@ -48,13 +48,11 @@ h4{
 .container{
     width: 100%;
     height: 100vh;
-    /* background-image: url('/images/hzi.png'); */
-    /* background: var(--footer-bg); */
-    /* background-repeat: no-repeat;
+    background-image: url('../images/laptop.jpg'); 
+    background-repeat: no-repeat;
     background-attachment: scroll;
-    background-size: cover; */
-
-    background: linear-gradient(135deg, var(--footer-bg2), var(--footer-bg)),  no-repeat center center / cover;
+    background-size: cover;
+      
 }
 
 .sub-container{
@@ -65,7 +63,7 @@ h4{
     justify-content:  center;
     align-items: center;
     color: white;
-    margin-top: 50px;
+    background: linear-gradient(135deg, var(--footer-bg2), var(--footer-bg)), no-repeat center center / cover;
 
 }
 
@@ -307,36 +305,20 @@ li .icon-span a:hover{
     width: 100%;
     background: var(--footer-bg);
     margin-top: 20px;
+    padding: 30px 0;
 }
 
-.footer-imgs{
-
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+.footer p{
+    width: 90%;
+    margin: 5px auto;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
-.img{
 
-    width: 40px;
-    height: 40px;
-    margin-bottom: 15px;
-    
-
-}
-
-.img:first-child{
-    margin-top: 10px;
-}
-
-.img img{
-
-    width: 100%;
-    height: 100%;
-    border-radius: 8px;
-}
 
 
 
@@ -351,7 +333,7 @@ li .icon-span a:hover{
     .sub-container{
 
         flex-direction: column-reverse;
-        margin-top: 60px;
+       
         
     }
 
@@ -406,10 +388,7 @@ li .icon-span a:hover{
 
 @media (min-width: 992px){
 
-    .sub-container{
-
-        margin-top: 90px;
-    }
+   
 
     .my-name h3{
 

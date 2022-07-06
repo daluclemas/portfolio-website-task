@@ -1,8 +1,12 @@
-const codeIcon = document.querySelector('.code-icon');
+const codeIcon = document.querySelector(".code-icon");
 
-const codeIconValue = '</developer>';
+const codeIconValue = "</developer>";
 
-document.addEventListener('DOMContentLoaded',()=>{
+const dateSpan = document.querySelector(".date");
 
-    codeIcon.innerText=` ${codeIconValue}`;
+const footerYear = new Date();
+dateSpan.innerText = footerYear.getFullYear();
+
+document.addEventListener("DOMContentLoaded", () => {
+  codeIcon.innerText = ` ${codeIconValue}`;
 });
